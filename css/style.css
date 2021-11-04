@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w1{
+    background-color: #3C91E6;
+    color: #9FD356;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.p{
+    background-color: #385F71;
+    color: #F5F0F6;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.p1{
+    background-color: #D7B377;
+    color: #8F754F;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.p2{
+    background-color: #385F71;
+    color: #F5F0F6;
+    font-size: 25px;
+    border: black 2px solid;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.parent1{
+    background-color: #A6A867;
+    color: #E3DCC2;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 0 100px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.a1{
+    
+    font-size: 25px;
+    text-align: center;
+}
+.b1::before{
+    content: "прикольное кино!|   ";
+    background-color: blue;
+}
+.b1{
+    font-size: 20px;
+}
+.parent2{
+    background-color: #ADCAD6;
+    color: #F18F01;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 100px 25px;
+    padding: 20px;
+}
+.a2{
+    text-align: center;
+    font-size: 25px;
+}
+.b2{
+    font-size: 20px;
+}
+.b2::after{
+    content: "|Как вам трейлер!";
+    background-color: crimson;
+}
+.parent3{
+    background-color: #006E90;
+    color: #99C24D;
+    margin: 0 100px 25px;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.a3{
+    text-align: center;
+    font-size: 25px;
+}
+.b3{
+    font-size: 20px;
+}
+.b3::before{
+    content: "Я ещё первую часть не смотрел!";
+    background-color: cyan;
+}
+.p4{
+    background-color:#41BBD9;
+    color: #F18F01;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.v1{
+    margin: 20px 0px 20px 200px;
+}
+.v2{
+    margin: 20px 0px 20px 200px;
+}
+.v3{
+    margin: 20px 0px 20px 200px;
+}
+.cart{
+    margin: 20px 300px;
+}
+.w{
+    background-color: #FA824C;
+    color: #FAFFFD;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
